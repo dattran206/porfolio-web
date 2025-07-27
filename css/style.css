@@ -1,18 +1,347 @@
 .container {
     display:flex;
-    gap: 50px
+    gap: 20px
 
 }
 .main-content {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
     width: 970px;
+    gap: 50px;
 }
 .gioithieu {
-    width: 970px;
+   display: flex;
+   background-color: white;
+   flex-direction: row;
+    width: 910px;
     height: 468px;
+    gap: 1px;
+    align-items: center;
+    padding-left: 70px;
+   margin-left: 10px;
+    margin-right: 10px;
+    
 }
-.tieude {
+.tieudeA {
     width: 500px;
-    height: 180px;
-    font-size: 30px;
+    font-size: 25px;
+}
+.tieudeB {
+    width: 424px;
+    font-size: 16px;
+}
+.anhChinh {
+    margin-left: 50px;
+}
+.iconMang {
+    display: flex;
+    gap: 20px;
+}
+.hereMe {
+    margin-top: 30px;
+    width: 154px;
+    height: 51px;
+}
+.tieuDe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+.Sv {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    align-items: center;
+    margin-left: 10px;
+}
+.itemServices {
+    padding-top: 40px;
+    text-align: center;
+    background-color: white;
+    width: 310px;
+    height: 225px;
+    justify-content: center;
+    text-align: center;
+}
+.tieuDeBanGia {
+  text-align: center;
+}
+.itemPP {
+  background-color: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin: 20px auto;
+}
+.cacGoi {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.ten-goi {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gia {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.so-tien {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+.don-vi {
+  font-size: 14px;
+  color: #666;
+}
+
+.mo-ta {
+  font-size: 14px;
+  color: #888;
+  margin: 10px 0 20px 0;
+}
+
+.chucnang {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dong-tinh-nang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dong-tinh-nang p {
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.nut-order {
+  background-color: white;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 0.5px solid gray;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.cacTheRecom
+{
+  display: flex;
+  gap: 20px;
+}
+.tieuDerecom{
+  text-align: center;
+}
+.phuDeRecom {
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  margin-left: 250px;
+}
+.itemRecom {
+  background-color: white;
+  width: 310px;
+  height: 323px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.nguoiDanhGia {
+  display: flex;
+  gap: 20px;
+  
+}
+.cactheEdu
+{
+  background-color: white;
+}
+.itemEdu {
+  display: flex;
+  gap: 190px;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+.tieudeEdu {
+  text-align: center;
+}
+.phudeEdu {
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  margin-left: 250px;
+
+}
+.contenPoo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.thanhTabbar {
+  display: flex;
+  gap: 35px;
+  font-size: 20px;
+  margin-left: 150px;
+  width: 606px;
+}
+.tabDuocChon {
+  color: orange;
+}
+.anhPorto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px ;
+}
+.itemBlog {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 474px;
+  
+}
+.contentBlog {
+  padding-left: 40px;
+  gap: 10px;
+}
+.cacTheBlog {
+  display: flex;
+  gap: 20px;
+}
+.thongTin {
+  display: block;
+  width: 600px;
+  gap: 50px;
+  font-size: 30px;
+}
+.thongTin label {
+
+  
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding-left: 40px;
+}
+.thongTin input {
+   margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  width: 490px;
+  height: 40px;
+ 
+}
+.thongTin textarea {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  width: 490px;
+  height: 210px;
+}
+.thongTin button {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  height: 35px;
+}
+.itemContact {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 200px;
+  align-items: center;
+  gap: 20px;
+}
+.noiDungcontact {
+  display: flex;
+  gap: 130px;
+}
+.ndungTrai {
+  padding-left: 20px;
+}
+.ndungPhai {
+  text-align: right;
+  padding-right: 20px;
+}
+.imgContact {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 370px;
+  
+}
+.ThongTin_Contact {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 30px;
+  height: 756px;
+}
+.fotter {
+  position: fixed;
+  bottom: 0px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 1400px;
+  width: 108px;
+  background-color: white;
+  margin-left: 30px;
+  padding-top: 30px;
+  align-items: center;
+  gap: 170px;
+}
+.itemNav1 {
+  width: 30px;
+  height: 30px;
+ 
+}
+.itemNav2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.iconKhac {
+  display: flex;
+  flex-direction: column;
+  gap: 30px ;
 }
